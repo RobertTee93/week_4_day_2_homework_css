@@ -1,0 +1,86 @@
+* {
+  font-family: 'Italiana', serif;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+nav ul{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 50px
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.index {
+  text-align: center;
+  font-size: 40px;
+}
+
+.index-main {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-main a {
+  color: red;
+}
+
+.green {
+  color: green !important;
+}
+
+.red {
+  color: red !important;
+}
+
+
+.edit-form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.edit-form input {
+  font-size: 30px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.edit-form select {
+  font-size: 20px;
+  background-color: #333;
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.show-order {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
